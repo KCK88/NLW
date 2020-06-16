@@ -72,6 +72,7 @@ server.get("/search-results", (req, res) => {
 
     const search = req.query.search
     if (search == "") { //pesquisa vazia
+        console.log(search)
         return res.render("search-results.html", { total: 0 })
     }
 
