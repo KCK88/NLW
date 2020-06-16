@@ -86,5 +86,3 @@ server.get("/search-results", (req, res) => {
 
 // ligar o server
 server.listen(3000)
-
-//01:31:44
